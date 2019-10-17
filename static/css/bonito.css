@@ -1,0 +1,57 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+	color: #801616;
+	padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    outline:none;
+    opacity: 94;
+}
+
+.corpo {
+    width: 100%;
+    height: 100%;
+    background: url("/static/imagens/clean.jpg")
+}
+
+.box h2 {
+	color:#ffffff;
+}
+
+.box .frase {
+	color:#ffffff;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.box button {
+	justify-content: center;
+	border: 0;
+    background: none;
+    text-align: center;
+    border: 0;
+    background-image: linear-gradient(to right,  #F30D52, #E91957);
+    padding: 14px 40px;
+    margin-top: 10px;
+    width: 50%;
+    outline: none;
+    color: #ffffff;
+    border-radius: 18px;
+    cursor: pointer;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    font-weight: bold;
+    background-size: 200% 100%;
+}
+
+

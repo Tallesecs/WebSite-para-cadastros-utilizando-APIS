@@ -2,6 +2,10 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import Cliente
 from .forms import ClienteForm, CadastroForm
 from django.contrib.auth.decorators import login_required
+import requests
+
+def cep(request):
+    response = requests.get('viacep.com.br/ws/%s/json')
 
 
 def usuarioCreate(request):
