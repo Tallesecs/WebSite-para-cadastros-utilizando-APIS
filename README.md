@@ -69,7 +69,8 @@ Caso haja algum erro, instalar manualmente o django e o requests para rodar o se
 - Não tive tempo hábil para linkar com postgres porém sei conectar o banco
 - Fiz todos os passos para deploy no heroku, mas encontrei alguns erros no fim e não tive tempo de terminar, deixei essa versão sem configurações para o heroku
 - Não consegui implementar a api do Facebook
-- Agradeço mais uma vez!!
+- Todos os outros requisitos foram concluídos!
+- Agradeço a todos!!
 
   
 
