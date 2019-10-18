@@ -15,7 +15,16 @@ _REQUERIMENTOS BÁSICOS PARA UMA APLICAÇÃO._
 - Django 2.2.5
 - Pytz - 2019.2
 - Sqlparse - 0.3.0
-- requests
+- certifi==2019.9.11
+- chardet==3.0.4
+- idna==2.8
+- requests==2.22.0
+- urllib3==1.25.6
+- python-decouple-3.1
+- dj-database-url-0.5.0
+- dj-static-0.0.6
+- static3-0.7.0
+
 
 
 
