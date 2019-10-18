@@ -1,6 +1,6 @@
 Desafio SNET - Talles Eduardo
 =================
-_Neste sistema os usuários irão se cadastrar e dentro de suas especificidades, poderão cadastrar clientes(criar, atualizar, apagar e listar))
+_Neste sistema os usuários irão se cadastrar e dentro de suas especificidades, poderão cadastrar clientes(criar, atualizar, apagar, listar e ler))
 
 ## [](#considera%C3%A7%C3%B5es-iniciais)Considerações Iniciais
 
