@@ -57,8 +57,13 @@ Caso haja algum erro, instalar manualmente o django e o requests para rodar o se
 
 ```
 
+Para rodar o servidor:
 
+```
 
+	python manage.py runserver
+
+```
 
 ## [](#constru%C3%ADdo-com)Construído com
 
