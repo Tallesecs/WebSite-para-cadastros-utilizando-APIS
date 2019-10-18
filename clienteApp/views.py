@@ -21,7 +21,7 @@ def usuarioCreate(request):
 
 '''Importando login required para pedir login
  quem entrar como admin vai poder ver.
- login: admin; email: admin@admin.com ; senha: admin'''
+ '''
 
 @login_required
 def clienteList(request):
