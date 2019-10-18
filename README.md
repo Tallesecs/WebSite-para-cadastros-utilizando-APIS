@@ -48,6 +48,18 @@ _REQUERIMENTOS BÁSICOS PARA UMA APLICAÇÃO._
 	    --> python manage.py migrate
 ```
 
+Caso haja algum erro, instalar manualmente o django e o requests para rodar o servidor:
+
+```
+
+	pip install django
+	pip install requests
+
+```
+
+
+
+
 ## [](#constru%C3%ADdo-com)Construído com
 
 - [Bootstrap v4.3.1](https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css) - Design do sistema
