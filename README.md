@@ -11,10 +11,10 @@ Essas instruções serão necessárias para configuração e execução do proje
 _REQUERIMENTOS BÁSICOS PARA UMA APLICAÇÃO._
 
 ```python
-- Python 3.7
-- Django 2.2.5
-- Pytz - 2019.2
-- Sqlparse - 0.3.0
+- Python==3.7
+- Django==2.2.5
+- Pytz==2019.2
+- Sqlparse==0.3.0
 - certifi==2019.9.11
 - chardet==3.0.4
 - idna==2.8
