@@ -15,6 +15,7 @@ _REQUERIMENTOS BÁSICOS PARA UMA APLICAÇÃO._
 - Django 2.2.5
 - Pytz - 2019.2
 - Sqlparse - 0.3.0
+- requests
 
 
 
