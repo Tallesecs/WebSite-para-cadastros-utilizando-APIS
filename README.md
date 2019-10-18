@@ -1,6 +1,6 @@
 Desafio SNET - Talles Eduardo
 =================
-_Neste sistema os usuários irão se cadastrar e dentro de suas especificidades, poderão cadastrar clientes(criar, atualizar, apagar, listar e ler))
+_Neste sistema os usuários irão se cadastrar e dentro de suas especificidades, poderão cadastrar clientes(criar, atualizar, apagar, listar e ler). Existe a opção de preenchimento automatico de endereço usando a api viaCEP, trocar o cep padrão para um outro e clicar enter. Após o cadastro, clicar em VER para ver as informações do usuário e o MAPS utilizando a api do googleMaps)
 
 ## [](#considera%C3%A7%C3%B5es-iniciais)Considerações Iniciais
 
