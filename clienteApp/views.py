@@ -4,8 +4,10 @@ from .forms import ClienteForm, CadastroForm
 from django.contrib.auth.decorators import login_required
 import requests
 
-def cep(request):
+def home(request):
     response = requests.get('viacep.com.br/ws/%s/json')
+    print(response)
+
 
 
 def usuarioCreate(request):
@@ -60,6 +62,15 @@ def clienteDelete(request, id):
         return redirect('clienteList')
 
     return render(request, 'clienteDelete.html', {'cliente': cliente})
+
+@login_required
+def clienteRead(request, id):
+    cliente = get_object_or_404(Cliente, pk=id)
+    form = ClienteForm(request.POST or None, instance=cliente)
+
+    return render(request, 'clienteRead.html', {'cliente': cliente, 'form': form})
+
+
 
 '''Função de cadastro'''
 

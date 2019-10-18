@@ -9,7 +9,7 @@ from .models import Cliente, Usuario
 class ClienteForm(ModelForm):
     class Meta:
         model = Cliente
-        fields = ['nome', 'telefone', 'endereco', 'numero', 'cidade', 'estado', 'pais', 'cep']
+        fields = ['cep', 'nome', 'endereco', 'numero', 'cidade', 'estado', 'pais', 'telefone']
 
 class CadastroForm(UserCreationForm):
     class Meta:

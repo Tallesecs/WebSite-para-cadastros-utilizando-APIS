@@ -11,6 +11,7 @@
             <li>
                 <a href="{% url 'clienteUpdate' cliente.id %}"> {{ cliente.nome }}</a>
                 <a href="{% url 'clienteDelete' cliente.id %}">Apagar</a>
+                <a href="{% url 'clienteRead' cliente.id %}">Ver</a>
             </li>
         {% endfor %}
 
